@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rafael Pinot</title>
+    <link>/</link>
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <description>Rafael Pinot</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 02 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Rafael Pinot</title>
+      <link>/</link>
+    </image>
+    
+    <item>
+      <title>On the impact of randomization on robustness in machine learning</title>
+      <link>/publication/phd-thesis/</link>
+      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/phd-thesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Advocating for Multiple Defense Strategies against Adversarial Examples</title>
+      <link>/publication/ecml2020/</link>
+      <pubDate>Mon, 14 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/ecml2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Randomization matters. How to defend against strong adversarial attacks</title>
+      <link>/publication/randomizationmatters/</link>
+      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/randomizationmatters/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Theoretical evidence for adversarial robustness through randomization</title>
+      <link>/publication/neurips2019/</link>
+      <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/neurips2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A unified view on differential privacy and robustness to adversarial examples</title>
+      <link>/publication/ecml2019/</link>
+      <pubDate>Fri, 20 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/ecml2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust Neural Networks using Randomized Adversarial Training</title>
+      <link>/publication/rat-preprint/</link>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rat-preprint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graph-based Clustering under Differential Privacy</title>
+      <link>/publication/uai2018/</link>
+      <pubDate>Sun, 05 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/uai2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Minimum spanning tree release under differential privacy constraints</title>
+      <link>/publication/master-thesis/</link>
+      <pubDate>Mon, 30 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/master-thesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nodes clustering in a graph under differential privacy constraints</title>
+      <link>/publication/jdsecommunication/</link>
+      <pubDate>Fri, 15 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/jdsecommunication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SPEED: Secure, PrivatE,and Efficient Deep learning</title>
+      <link>/publication/ecml2021/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/ecml2021/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

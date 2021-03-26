@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rafael PINOT</title>
+    <link>/authors/rafael-pinot/</link>
+      <atom:link href="/authors/rafael-pinot/index.xml" rel="self" type="application/rss+xml" />
+    <description>Rafael PINOT</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 04 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Rafael PINOT</title>
+      <link>/authors/rafael-pinot/</link>
+    </image>
+    
+    <item>
+      <title>Theoretical evidence for adversarial robustness through randomization</title>
+      <link>/publication/arxivrobustnessthroughrandomization/</link>
+      <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/arxivrobustnessthroughrandomization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graph-based Clustering under Differential Privacy</title>
+      <link>/publication/uai2018/</link>
+      <pubDate>Sun, 05 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/uai2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Minimum spanning tree release under differential privacy constraints</title>
+      <link>/publication/master-thesis/</link>
+      <pubDate>Mon, 30 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/master-thesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nodes clustering in a graph under differential privacy constraints</title>
+      <link>/publication/jdsecommunication/</link>
+      <pubDate>Fri, 15 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/jdsecommunication/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

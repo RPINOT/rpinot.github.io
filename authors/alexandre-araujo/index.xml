@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alexandre Araujo | Rafael Pinot</title>
+    <link>/authors/alexandre-araujo/</link>
+      <atom:link href="/authors/alexandre-araujo/index.xml" rel="self" type="application/rss+xml" />
+    <description>Alexandre Araujo</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 14 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Alexandre Araujo</title>
+      <link>/authors/alexandre-araujo/</link>
+    </image>
+    
+    <item>
+      <title>Advocating for Multiple Defense Strategies against Adversarial Examples</title>
+      <link>/publication/ecml2020/</link>
+      <pubDate>Mon, 14 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/ecml2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Theoretical evidence for adversarial robustness through randomization</title>
+      <link>/publication/neurips2019/</link>
+      <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/neurips2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust Neural Networks using Randomized Adversarial Training</title>
+      <link>/publication/rat-preprint/</link>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rat-preprint/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
