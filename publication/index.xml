@@ -5,12 +5,20 @@
     <link>/publication/</link>
       <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 02 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 24 Mar 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Publications</title>
       <link>/publication/</link>
     </image>
+    
+    <item>
+      <title>SPEED: Secure, PrivatE,and Efficient Deep learning</title>
+      <link>/publication/ecml2021/</link>
+      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/ecml2021/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>On the impact of randomization on robustness in machine learning</title>
@@ -81,14 +89,6 @@
       <link>/publication/jdsecommunication/</link>
       <pubDate>Fri, 15 Sep 2017 00:00:00 +0000</pubDate>
       <guid>/publication/jdsecommunication/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SPEED: Secure, PrivatE,and Efficient Deep learning</title>
-      <link>/publication/ecml2021/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/publication/ecml2021/</guid>
       <description></description>
     </item>
     
