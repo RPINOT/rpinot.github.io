@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Yann Chevaleyre | Rafael Pinot</title>
-    <link>/authors/yann-chevaleyre/</link>
-      <atom:link href="/authors/yann-chevaleyre/index.xml" rel="self" type="application/rss+xml" />
-    <description>Yann Chevaleyre</description>
+    <title>Meyer Scetbon | Rafael Pinot</title>
+    <link>/authors/meyer-scetbon/</link>
+      <atom:link href="/authors/meyer-scetbon/index.xml" rel="self" type="application/rss+xml" />
+    <description>Meyer Scetbon</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 18 Jul 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>Yann Chevaleyre</title>
-      <link>/authors/yann-chevaleyre/</link>
+      <title>Meyer Scetbon</title>
+      <link>/authors/meyer-scetbon/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>/publication/icml2021/</link>
       <pubDate>Sun, 18 Jul 2021 00:00:00 +0000</pubDate>
       <guid>/publication/icml2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Randomization matters. How to defend against strong adversarial attacks</title>
-      <link>/publication/randomizationmatters/</link>
-      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/randomizationmatters/</guid>
       <description></description>
     </item>
     

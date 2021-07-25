@@ -5,12 +5,20 @@
     <link>/authors/jamal-atif/</link>
       <atom:link href="/authors/jamal-atif/index.xml" rel="self" type="application/rss+xml" />
     <description>Jamal Atif</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 24 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 18 Jul 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Jamal Atif</title>
       <link>/authors/jamal-atif/</link>
     </image>
+    
+    <item>
+      <title>Mixed Nash Equilibria in the Adversarial Examples Game</title>
+      <link>/publication/icml2021/</link>
+      <pubDate>Sun, 18 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/icml2021/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Randomization matters. How to defend against strong adversarial attacks</title>
