@@ -4,21 +4,61 @@
   
   <url>
     <loc>/authors/admin/</loc>
-    <lastmod>2021-03-24T00:00:00+00:00</lastmod>
+    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/publication_types/1/</loc>
-    <lastmod>2021-03-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/arnaud-grivet-sebert/</loc>
-    <lastmod>2021-03-24T00:00:00+00:00</lastmod>
+    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/</loc>
+    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/jamal-atif/</loc>
+    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/laurent-meunier/</loc>
+    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/meyer-scetbon/</loc>
+    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/icml2021/</loc>
+    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/yann-chevaleyre/</loc>
+    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/arnaud-grivet-sebert/</loc>
     <lastmod>2021-03-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -29,21 +69,6 @@
   
   <url>
     <loc>/authors/martin-zuber/</loc>
-    <lastmod>2021-03-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2021-03-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-    <lastmod>2021-03-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
     <lastmod>2021-03-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -83,17 +108,7 @@
   </url>
   
   <url>
-    <loc>/authors/laurent-meunier/</loc>
-    <lastmod>2020-09-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/authors/geovani-rizk/</loc>
-    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/jamal-atif/</loc>
     <lastmod>2020-02-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -104,11 +119,6 @@
   
   <url>
     <loc>/authors/raphael-ettegui/</loc>
-    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/yann-chevaleyre/</loc>
     <lastmod>2020-02-24T00:00:00+00:00</lastmod>
   </url>
   
