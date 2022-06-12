@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Rachid Guerraoui | Rafael Pinot</title>
-    <link>/authors/rachid-guerraoui/</link>
-      <atom:link href="/authors/rachid-guerraoui/index.xml" rel="self" type="application/rss+xml" />
-    <description>Rachid Guerraoui</description>
+    <title>Anastasiia Gorbunova | Rafael Pinot</title>
+    <link>/authors/anastasiia-gorbunova/</link>
+      <atom:link href="/authors/anastasiia-gorbunova/index.xml" rel="self" type="application/rss+xml" />
+    <description>Anastasiia Gorbunova</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 30 May 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>Rachid Guerraoui</title>
-      <link>/authors/rachid-guerraoui/</link>
+      <title>Anastasiia Gorbunova</title>
+      <link>/authors/anastasiia-gorbunova/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>/publication/ipdps2022/</link>
       <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
       <guid>/publication/ipdps2022/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Differential Privacy and Byzantine Resilience in SGD: Do They Add Up?</title>
-      <link>/publication/podc2021/</link>
-      <pubDate>Mon, 26 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/podc2021/</guid>
       <description></description>
     </item>
     
