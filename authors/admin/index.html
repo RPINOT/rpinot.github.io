@@ -70,8 +70,6 @@
     
 
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
-    
 
     
 
@@ -236,7 +234,7 @@
   <meta property="og:description" content="Postdoctoral researcher in Computer Science"><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
   <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2022-05-30T00:00:00&#43;00:00">
+    <meta property="og:updated_time" content="2022-07-17T00:00:00&#43;00:00">
   
 
   
@@ -274,8 +272,7 @@
 
       <div id="search-box">
         
-        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
-        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
         
       </div>
 
@@ -424,10 +421,6 @@
 
     <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
       
-      <li class="nav-item">
-        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
-      </li>
-      
 
       
       <li class="nav-item">
@@ -561,8 +554,6 @@ Polytechnique Fédérale de Lausanne</a>. I work with <em>Pr. Rachid Guerraoui</
 <a href="http://www-list.cea.fr/" target="_blank" rel="noopener">CEA LIST institute, Université Paris Saclay</a> where I was advised by <em>Pr. Jamal Atif</em>, <em>Dr. Florian Yger</em>, and <em>Dr. Cédric Gouy-Pailler</em>. Prior to that, I also obtained in 2017 a MSc in Theoretical and Applied Statistics from 
 <a href="http://www.sorbonne-universite.fr/" target="_blank" rel="noopener">Sorbonne Université (Paris 6)</a>.</p>
 <p>My main line of research is in statistical machine learning with a focus on the <em>security and privacy of machine learning</em> applications. I also like to work on statistical analysis of complex data structures such as graphs.</p>
-<p>In response to the current Covid-19 crisis, I joined a scientific initiative coordinated by <em>Pr. Jamal Atif</em> and <em>Pr. Olivier Cappé</em>. Learn more about it 
-<a href="https://psl.eu/initiative-scientifique-covid-19-face-au-virus" target="_blank" rel="noopener">here</a>.</p>
 
 
     <div class="row">
@@ -572,9 +563,13 @@ Polytechnique Fédérale de Lausanne</a>. I work with <em>Pr. Rachid Guerraoui</
         <h3>Interests</h3>
         <ul class="ul-interests">
           
-          <li>Statistical Machine learning</li>
+          <li>Robustness in Machine Learning</li>
           
-          <li>Security and Privacy in Machine Learning</li>
+          <li>Privacy Preserving Data Analysis</li>
+          
+          <li>Distributed Machine Learning</li>
+          
+          <li>Theory of Deep Learning</li>
           
           <li>Graph Theory</li>
           
@@ -627,6 +622,10 @@ Polytechnique Fédérale de Lausanne</a>. I work with <em>Pr. Rachid Guerraoui</
     <div class="article-widget content-widget-hr">
       <h3>Latest</h3>
       <ul>
+        
+        <li>
+          <a href="/publication/icml2022/">Byzantine Machine Learning Made Easy by Resilent Averaging of Momentums</a>
+        </li>
         
         <li>
           <a href="/publication/ipdps2022/">The Universal Gossip Fighter</a>
@@ -710,8 +709,6 @@ Polytechnique Fédérale de Lausanne</a>. I work with <em>Pr. Rachid Guerraoui</
 
     
     
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
-    
 
     
     
@@ -724,45 +721,13 @@ Polytechnique Fédérale de Lausanne</a>. I work with <em>Pr. Rachid Guerraoui</
     
 
     
-    
-    
-    
-    
-    
-    <script>
-      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
-      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
-      const content_type = {
-        'post': "Posts",
-        'project': "Projects",
-        'publication' : "Publications",
-        'talk' : "Talks"
-        };
-    </script>
-    
 
     
     
 
     
-    
-    <script id="search-hit-fuse-template" type="text/x-template">
-      <div class="search-hit" id="summary-{{key}}">
-      <div class="search-hit-content">
-        <div class="search-hit-name">
-          <a href="{{relpermalink}}">{{title}}</a>
-          <div class="article-metadata search-hit-type">{{type}}</div>
-          <p class="search-hit-description">{{snippet}}</p>
-        </div>
-      </div>
-      </div>
-    </script>
-    
 
     
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
     
 
     
@@ -780,12 +745,10 @@ Polytechnique Fédérale de Lausanne</a>. I work with <em>Pr. Rachid Guerraoui</
     
     
     
-      
     
     
     
-    
-    <script src="/js/academic.min.a8d7005002cb4a052fd6d721e83df9ba.js"></script>
+    <script src="/js/academic.min.c97b94000ee75a76d9bc08f5a2e44814.js"></script>
 
     
 
@@ -801,7 +764,7 @@ Polytechnique Fédérale de Lausanne</a>. I work with <em>Pr. Rachid Guerraoui</
   
 
   <p class="powered-by">
-    
+    Rafael Pinot &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for

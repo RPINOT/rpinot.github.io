@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>John Stephan | Rafael Pinot</title>
-    <link>/authors/john-stephan/</link>
-      <atom:link href="/authors/john-stephan/index.xml" rel="self" type="application/rss+xml" />
-    <description>John Stephan</description>
+    <title>Sadegh Farhadkhani | Rafael Pinot</title>
+    <link>/authors/sadegh-farhadkhani/</link>
+      <atom:link href="/authors/sadegh-farhadkhani/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sadegh Farhadkhani</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Rafael Pinot</copyright><lastBuildDate>Sun, 17 Jul 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>John Stephan</title>
-      <link>/authors/john-stephan/</link>
+      <title>Sadegh Farhadkhani</title>
+      <link>/authors/sadegh-farhadkhani/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>/publication/icml2022/</link>
       <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
       <guid>/publication/icml2022/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Differential Privacy and Byzantine Resilience in SGD: Do They Add Up?</title>
-      <link>/publication/podc2021/</link>
-      <pubDate>Mon, 26 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/podc2021/</guid>
       <description></description>
     </item>
     
