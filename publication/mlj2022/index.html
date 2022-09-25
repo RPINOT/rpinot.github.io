@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="This paper investigates the theory of robustness against adversarial attacks. It focuses on the family of randomization techniques that consist in injecting noise in the network at inference time. These techniques have proven effective in many contexts, but lack theoretical arguments. We close this gap by presenting a theoretical analysis of these approaches, hence explaining why they perform well in practice. More precisely, we provide the first result relating the randomization rate to robustness to adversarial attacks. This result applies for the general family of exponential distributions, and thus extends and unifies the previous approaches. We support our theoretical claims with a set of experiments.">
+  <meta name="description" content="This paper investigates the theory of robustness against adversarial attacks. We focus on randomized classifiers (i.e. classifiers that output random variables) and provide a thorough analysis of their behavior through the lens of statistical learning theory and information theory. To this aim, we introduce a new notion of robustness for randomized classifiers, enforcing local Lipschitzness using probability metrics. Equipped with this definition, we make two new contributions. The first one consists in devising a new upper bound on the adversarial generalization gap of randomized classifiers. More precisely, we devise bounds on the generalization gap and the adversarial gap i.e. the gap between the risk and the worst-case risk under attack) of randomized classifiers. The second contribution presents a yet simple but efficient noise injection method to design robust randomized classifiers. We show that our results are applicable to a wide range of machine learning models under mild hypotheses. We further corroborate our findings with experimental results using deep neural networks on standard image datasets, namely CIFAR-10 and CIFAR-100. On these tasks, we manage to design robust models that simultaneously achieve state-of-the-art accuracy (over 0.82 clean accuracy on CIFAR-10) and enjoy guaranteed robust accuracy bounds (0.45 against l2 adversaries with magnitude 0.5 on CIFAR-10).">
 
   
-  <link rel="alternate" hreflang="en-us" href="/publication/neurips2019/">
+  <link rel="alternate" hreflang="en-us" href="/publication/mlj2022/">
 
   
 
@@ -213,7 +213,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/publication/neurips2019/">
+  <link rel="canonical" href="/publication/mlj2022/">
 
   
   
@@ -227,15 +227,15 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Rafael Pinot">
-  <meta property="og:url" content="/publication/neurips2019/">
-  <meta property="og:title" content="Theoretical evidence for adversarial robustness through randomization | Rafael Pinot">
-  <meta property="og:description" content="This paper investigates the theory of robustness against adversarial attacks. It focuses on the family of randomization techniques that consist in injecting noise in the network at inference time. These techniques have proven effective in many contexts, but lack theoretical arguments. We close this gap by presenting a theoretical analysis of these approaches, hence explaining why they perform well in practice. More precisely, we provide the first result relating the randomization rate to robustness to adversarial attacks. This result applies for the general family of exponential distributions, and thus extends and unifies the previous approaches. We support our theoretical claims with a set of experiments."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
+  <meta property="og:url" content="/publication/mlj2022/">
+  <meta property="og:title" content="On the robustness of randomized classifiers to adversarial examples | Rafael Pinot">
+  <meta property="og:description" content="This paper investigates the theory of robustness against adversarial attacks. We focus on randomized classifiers (i.e. classifiers that output random variables) and provide a thorough analysis of their behavior through the lens of statistical learning theory and information theory. To this aim, we introduce a new notion of robustness for randomized classifiers, enforcing local Lipschitzness using probability metrics. Equipped with this definition, we make two new contributions. The first one consists in devising a new upper bound on the adversarial generalization gap of randomized classifiers. More precisely, we devise bounds on the generalization gap and the adversarial gap i.e. the gap between the risk and the worst-case risk under attack) of randomized classifiers. The second contribution presents a yet simple but efficient noise injection method to design robust randomized classifiers. We show that our results are applicable to a wide range of machine learning models under mild hypotheses. We further corroborate our findings with experimental results using deep neural networks on standard image datasets, namely CIFAR-10 and CIFAR-100. On these tasks, we manage to design robust models that simultaneously achieve state-of-the-art accuracy (over 0.82 clean accuracy on CIFAR-10) and enjoy guaranteed robust accuracy bounds (0.45 against l2 adversaries with magnitude 0.5 on CIFAR-10)."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
   <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2019-12-08T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2022-08-02T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2019-12-08T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2022-08-02T00:00:00&#43;00:00">
   
 
   
@@ -257,12 +257,12 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "/publication/neurips2019/"
+    "@id": "/publication/mlj2022/"
   },
-  "headline": "Theoretical evidence for adversarial robustness through randomization",
+  "headline": "On the robustness of randomized classifiers to adversarial examples",
   
-  "datePublished": "2019-12-08T00:00:00Z",
-  "dateModified": "2019-12-08T00:00:00Z",
+  "datePublished": "2022-08-02T00:00:00Z",
+  "dateModified": "2022-08-02T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -277,7 +277,7 @@
       "url": "/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "This paper investigates the theory of robustness against adversarial attacks. It focuses on the family of randomization techniques that consist in injecting noise in the network at inference time. These techniques have proven effective in many contexts, but lack theoretical arguments. We close this gap by presenting a theoretical analysis of these approaches, hence explaining why they perform well in practice. More precisely, we provide the first result relating the randomization rate to robustness to adversarial attacks. This result applies for the general family of exponential distributions, and thus extends and unifies the previous approaches. We support our theoretical claims with a set of experiments."
+  "description": "This paper investigates the theory of robustness against adversarial attacks. We focus on randomized classifiers (i.e. classifiers that output random variables) and provide a thorough analysis of their behavior through the lens of statistical learning theory and information theory. To this aim, we introduce a new notion of robustness for randomized classifiers, enforcing local Lipschitzness using probability metrics. Equipped with this definition, we make two new contributions. The first one consists in devising a new upper bound on the adversarial generalization gap of randomized classifiers. More precisely, we devise bounds on the generalization gap and the adversarial gap i.e. the gap between the risk and the worst-case risk under attack) of randomized classifiers. The second contribution presents a yet simple but efficient noise injection method to design robust randomized classifiers. We show that our results are applicable to a wide range of machine learning models under mild hypotheses. We further corroborate our findings with experimental results using deep neural networks on standard image datasets, namely CIFAR-10 and CIFAR-100. On these tasks, we manage to design robust models that simultaneously achieve state-of-the-art accuracy (over 0.82 clean accuracy on CIFAR-10) and enjoy guaranteed robust accuracy bounds (0.45 against l2 adversaries with magnitude 0.5 on CIFAR-10)."
 }
 </script>
 
@@ -295,7 +295,7 @@
 
 
 
-  <title>Theoretical evidence for adversarial robustness through randomization | Rafael Pinot</title>
+  <title>On the robustness of randomized classifiers to adversarial examples | Rafael Pinot</title>
 
 </head>
 
@@ -501,7 +501,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Theoretical evidence for adversarial robustness through randomization</h1>
+  <h1>On the robustness of randomized classifiers to adversarial examples</h1>
 
   
 
@@ -521,7 +521,7 @@
 
 
   
-  <span>Rafael Pinot</span>, <span>Laurent Meunier</span>, <span>Alexandre Araujo</span>, <span>Hisashi Kashima</span>, <span>Florian Yger</span>, <span>Cedric Gouy-Pailler</span>, <span>Jamal Atif</span>
+  <span>Rafael Pinot</span>, <span>Laurent Meunier</span>, <span>Florian Yger</span>, <span>Cédric Gouy-Pailler</span>, <span>Yann Chevaleyre</span>, <span>Jamal Atif</span>
 
   </div>
   
@@ -533,7 +533,7 @@
     
       
     
-    December 2019
+    August 2022
   </span>
   
 
@@ -605,9 +605,9 @@
   
     
   
-  <a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/pdf/1902.01148.pdf" target="_blank" rel="noopener">
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/pdf/2102.10875.pdf" target="_blank" rel="noopener">
     
-    Conference Paper
+    Journal Paper
   </a>
 
   
@@ -621,9 +621,9 @@
   
     
   
-  <a class="btn btn-outline-primary my-1 mr-1" href="https://nips.cc/Conferences/2019" target="_blank" rel="noopener">
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://link.springer.com/article/10.1007/s10994-022-06216-6" target="_blank" rel="noopener">
     
-    Neurips 2019
+    Machine Learning Journal
   </a>
 
 
@@ -639,7 +639,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">This paper investigates the theory of robustness against adversarial attacks. It focuses on the family of randomization techniques that consist in injecting noise in the network at inference time. These techniques have proven effective in many contexts, but lack theoretical arguments. We close this gap by presenting a theoretical analysis of these approaches, hence explaining why they perform well in practice. More precisely, we provide the first result relating the randomization rate to robustness to adversarial attacks. This result applies for the general family of exponential distributions, and thus extends and unifies the previous approaches. We support our theoretical claims with a set of experiments.</p>
+    <p class="pub-abstract">This paper investigates the theory of robustness against adversarial attacks. We focus on randomized classifiers (i.e. classifiers that output random variables) and provide a thorough analysis of their behavior through the lens of statistical learning theory and information theory. To this aim, we introduce a new notion of robustness for randomized classifiers, enforcing local Lipschitzness using probability metrics. Equipped with this definition, we make two new contributions. The first one consists in devising a new upper bound on the adversarial generalization gap of randomized classifiers. More precisely, we devise bounds on the generalization gap and the adversarial gap i.e. the gap between the risk and the worst-case risk under attack) of randomized classifiers. The second contribution presents a yet simple but efficient noise injection method to design robust randomized classifiers. We show that our results are applicable to a wide range of machine learning models under mild hypotheses. We further corroborate our findings with experimental results using deep neural networks on standard image datasets, namely CIFAR-10 and CIFAR-100. On these tasks, we manage to design robust models that simultaneously achieve state-of-the-art accuracy (over 0.82 clean accuracy on CIFAR-10) and enjoy guaranteed robust accuracy bounds (0.45 against l2 adversaries with magnitude 0.5 on CIFAR-10).</p>
     
 
     
@@ -651,8 +651,8 @@
           <div class="col-12 col-md-9">
             
             
-            <a href="/publication/#1">
-              Conference paper
+            <a href="/publication/#2">
+              Journal article
             </a>
             
           </div>
@@ -669,7 +669,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">Conference on Neural Information Processing Systems</div>
+          <div class="col-12 col-md-9">In Machine Learning Journal 2022</div>
         </div>
       </div>
       <div class="col-md-1"></div>

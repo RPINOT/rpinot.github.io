@@ -5,12 +5,20 @@
     <link>/authors/florian-yger/</link>
       <atom:link href="/authors/florian-yger/index.xml" rel="self" type="application/rss+xml" />
     <description>Florian Yger</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Rafael Pinot</copyright><lastBuildDate>Sun, 08 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Rafael Pinot</copyright><lastBuildDate>Tue, 02 Aug 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Florian Yger</title>
       <link>/authors/florian-yger/</link>
     </image>
+    
+    <item>
+      <title>On the robustness of randomized classifiers to adversarial examples</title>
+      <link>/publication/mlj2022/</link>
+      <pubDate>Tue, 02 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/mlj2022/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Theoretical evidence for adversarial robustness through randomization</title>
