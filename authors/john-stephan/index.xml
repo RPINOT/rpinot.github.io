@@ -5,12 +5,36 @@
     <link>/authors/john-stephan/</link>
       <atom:link href="/authors/john-stephan/index.xml" rel="self" type="application/rss+xml" />
     <description>John Stephan</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Rafael Pinot</copyright><lastBuildDate>Sun, 17 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Rafael Pinot</copyright><lastBuildDate>Sun, 23 Jul 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>John Stephan</title>
       <link>/authors/john-stephan/</link>
     </image>
+    
+    <item>
+      <title>On the Privacy-Robustness-Utility Trilemma in Distributed Learning</title>
+      <link>/publication/icml2023_1/</link>
+      <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/icml2023_1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust Collaborative Learning with Linear Gradient Overhead</title>
+      <link>/publication/icml2023_2/</link>
+      <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/icml2023_2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fixing by Mixing: A Recipe for Optimal Byzantine ML under Heterogeneity</title>
+      <link>/publication/aistats2023/</link>
+      <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/aistats2023/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Byzantine Machine Learning Made Easy by Resilent Averaging of Momentums</title>

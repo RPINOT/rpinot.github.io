@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="In this paper, we study the problem of consistency in the context of adversarial examples. Specifically, we tackle the following question; can surrogate losses still be used as a proxy for minimizing the 0/1 loss in the presence of an adversary that alters the inputs at test-time? Different from the standard classification task, this question cannot be reduced to a point-wise minimization problem, and calibration needs not to be sufficient to ensure consistency. In this paper, we expose some pathological behaviors specific to the adversarial problem, and show that no convex surrogate loss can be consistent or calibrated in this context. It is therefore necessary to design another class of surrogate functions that can be used to solve the adversarial consistency issue. As a first step towards designing such a class, we identify sufficient and necessary conditions for a surrogate loss to be calibrated in both the adversarial and standard settings. Finally, we give some directions for building a class of losses that could be consistent in the adversarial framework.">
+  <meta name="description" content="The notion of adversary is a staple of distributed computing. An adversary typically models hostile assumptions about the underlying distributed environment, e.g., a network that can drop messages, an operating system that can delay processes or an attacker that can hack machines. So far, the goal of distributed computing researchers has mainly been to develop a distributed algorithm that can face a given adversary, the abstraction characterizing worst-case scenarios. This paper initiates the study of the somehow opposite approach. Given a distributed algorithm, the adversary is the abstraction we seek to implement. More specifically, we consider the problem of controlling the spread of messages in a large- scale system, conveying the practical motivation of limiting the dissemination of fake news or viruses. Essentially, we assume a general class of gossip protocols, called all-to-all gossip protocols, and devise a practical method to hinder the dissemination. We present the Universal Gossip Fighter (UGF). Just like classical adversaries in distributed computing, UGF can observe the status of a dissemination and decide to stop some processes or delay some messages. The originality of UGF lies in the fact that it is universal, i.e., it applies to any all-to-all gossip protocol. We show that any gossip protocol attacked by UGF ends up exhibiting a quadratic message complexity (in the total number of processes) if it achieves sublinear time of dissemination. We also show that if a gossip protocol aims to achieve a message complexity α times smaller than quadratic, then the time complexity rises exponentially in relation to α. We convey the practical relevance of our theoretical findings by implementing UGF and conducting a set of empirical experiments that confirm some of our results.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/publication/neurips2022/">
+  <link rel="alternate" hreflang="en-us" href="/publication/disc2023/">
 
   
 
@@ -213,7 +213,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/publication/neurips2022/">
+  <link rel="canonical" href="/publication/disc2023/">
 
   
   
@@ -227,15 +227,15 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Rafael Pinot">
-  <meta property="og:url" content="/publication/neurips2022/">
-  <meta property="og:title" content="Towards Consistency in Adversarial Classification | Rafael Pinot">
-  <meta property="og:description" content="In this paper, we study the problem of consistency in the context of adversarial examples. Specifically, we tackle the following question; can surrogate losses still be used as a proxy for minimizing the 0/1 loss in the presence of an adversary that alters the inputs at test-time? Different from the standard classification task, this question cannot be reduced to a point-wise minimization problem, and calibration needs not to be sufficient to ensure consistency. In this paper, we expose some pathological behaviors specific to the adversarial problem, and show that no convex surrogate loss can be consistent or calibrated in this context. It is therefore necessary to design another class of surrogate functions that can be used to solve the adversarial consistency issue. As a first step towards designing such a class, we identify sufficient and necessary conditions for a surrogate loss to be calibrated in both the adversarial and standard settings. Finally, we give some directions for building a class of losses that could be consistent in the adversarial framework."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
+  <meta property="og:url" content="/publication/disc2023/">
+  <meta property="og:title" content="On the Inherent Anonymity of Gossiping | Rafael Pinot">
+  <meta property="og:description" content="The notion of adversary is a staple of distributed computing. An adversary typically models hostile assumptions about the underlying distributed environment, e.g., a network that can drop messages, an operating system that can delay processes or an attacker that can hack machines. So far, the goal of distributed computing researchers has mainly been to develop a distributed algorithm that can face a given adversary, the abstraction characterizing worst-case scenarios. This paper initiates the study of the somehow opposite approach. Given a distributed algorithm, the adversary is the abstraction we seek to implement. More specifically, we consider the problem of controlling the spread of messages in a large- scale system, conveying the practical motivation of limiting the dissemination of fake news or viruses. Essentially, we assume a general class of gossip protocols, called all-to-all gossip protocols, and devise a practical method to hinder the dissemination. We present the Universal Gossip Fighter (UGF). Just like classical adversaries in distributed computing, UGF can observe the status of a dissemination and decide to stop some processes or delay some messages. The originality of UGF lies in the fact that it is universal, i.e., it applies to any all-to-all gossip protocol. We show that any gossip protocol attacked by UGF ends up exhibiting a quadratic message complexity (in the total number of processes) if it achieves sublinear time of dissemination. We also show that if a gossip protocol aims to achieve a message complexity α times smaller than quadratic, then the time complexity rises exponentially in relation to α. We convey the practical relevance of our theoretical findings by implementing UGF and conducting a set of empirical experiments that confirm some of our results."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
   <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2022-09-08T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2023-10-09T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2022-09-08T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2023-10-09T00:00:00&#43;00:00">
   
 
   
@@ -257,16 +257,16 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "/publication/neurips2022/"
+    "@id": "/publication/disc2023/"
   },
-  "headline": "Towards Consistency in Adversarial Classification",
+  "headline": "On the Inherent Anonymity of Gossiping",
   
-  "datePublished": "2022-09-08T00:00:00Z",
-  "dateModified": "2022-09-08T00:00:00Z",
+  "datePublished": "2023-10-09T00:00:00Z",
+  "dateModified": "2023-10-09T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Laurent Meunier"
+    "name": "Rachid Guerraoui"
   },
   
   "publisher": {
@@ -277,7 +277,7 @@
       "url": "/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "In this paper, we study the problem of consistency in the context of adversarial examples. Specifically, we tackle the following question; can surrogate losses still be used as a proxy for minimizing the 0/1 loss in the presence of an adversary that alters the inputs at test-time? Different from the standard classification task, this question cannot be reduced to a point-wise minimization problem, and calibration needs not to be sufficient to ensure consistency. In this paper, we expose some pathological behaviors specific to the adversarial problem, and show that no convex surrogate loss can be consistent or calibrated in this context. It is therefore necessary to design another class of surrogate functions that can be used to solve the adversarial consistency issue. As a first step towards designing such a class, we identify sufficient and necessary conditions for a surrogate loss to be calibrated in both the adversarial and standard settings. Finally, we give some directions for building a class of losses that could be consistent in the adversarial framework."
+  "description": "The notion of adversary is a staple of distributed computing. An adversary typically models hostile assumptions about the underlying distributed environment, e.g., a network that can drop messages, an operating system that can delay processes or an attacker that can hack machines. So far, the goal of distributed computing researchers has mainly been to develop a distributed algorithm that can face a given adversary, the abstraction characterizing worst-case scenarios. This paper initiates the study of the somehow opposite approach. Given a distributed algorithm, the adversary is the abstraction we seek to implement. More specifically, we consider the problem of controlling the spread of messages in a large- scale system, conveying the practical motivation of limiting the dissemination of fake news or viruses. Essentially, we assume a general class of gossip protocols, called all-to-all gossip protocols, and devise a practical method to hinder the dissemination. We present the Universal Gossip Fighter (UGF). Just like classical adversaries in distributed computing, UGF can observe the status of a dissemination and decide to stop some processes or delay some messages. The originality of UGF lies in the fact that it is universal, i.e., it applies to any all-to-all gossip protocol. We show that any gossip protocol attacked by UGF ends up exhibiting a quadratic message complexity (in the total number of processes) if it achieves sublinear time of dissemination. We also show that if a gossip protocol aims to achieve a message complexity α times smaller than quadratic, then the time complexity rises exponentially in relation to α. We convey the practical relevance of our theoretical findings by implementing UGF and conducting a set of empirical experiments that confirm some of our results."
 }
 </script>
 
@@ -295,7 +295,7 @@
 
 
 
-  <title>Towards Consistency in Adversarial Classification | Rafael Pinot</title>
+  <title>On the Inherent Anonymity of Gossiping | Rafael Pinot</title>
 
 </head>
 
@@ -501,7 +501,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Towards Consistency in Adversarial Classification</h1>
+  <h1>On the Inherent Anonymity of Gossiping</h1>
 
   
 
@@ -521,7 +521,7 @@
 
 
   
-  <span>Laurent Meunier</span>, <span>Raphael Ettedgui</span>, <span>Rafael Pinot</span>, <span>Yann Chevaleyre</span>, <span>Jamal Atif</span>
+  <span>Rachid Guerraoui</span>, <span>Anne-Marie Kermarrec</span>, <span>Anastasiia Kucherenko</span>, <span>Rafael Pinot</span>, <span>Sasha Voitovych</span>
 
   </div>
   
@@ -533,7 +533,7 @@
     
       
     
-    September 2022
+    October 2023
   </span>
   
 
@@ -605,7 +605,7 @@
   
     
   
-  <a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/pdf/2205.10022.pdf" target="_blank" rel="noopener">
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2308.02477" target="_blank" rel="noopener">
     
     Conference Paper
   </a>
@@ -621,9 +621,9 @@
   
     
   
-  <a class="btn btn-outline-primary my-1 mr-1" href="https://nips.cc/Conferences/2022" target="_blank" rel="noopener">
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://www.disc-conference.org/wp/disc2023/" target="_blank" rel="noopener">
     
-    Neurips 2022 (Spotlight)
+    DISC 2023
   </a>
 
 
@@ -639,7 +639,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">In this paper, we study the problem of consistency in the context of adversarial examples. Specifically, we tackle the following question; can surrogate losses still be used as a proxy for minimizing the 0/1 loss in the presence of an adversary that alters the inputs at test-time? Different from the standard classification task, this question cannot be reduced to a point-wise minimization problem, and calibration needs not to be sufficient to ensure consistency. In this paper, we expose some pathological behaviors specific to the adversarial problem, and show that no convex surrogate loss can be consistent or calibrated in this context. It is therefore necessary to design another class of surrogate functions that can be used to solve the adversarial consistency issue. As a first step towards designing such a class, we identify sufficient and necessary conditions for a surrogate loss to be calibrated in both the adversarial and standard settings. Finally, we give some directions for building a class of losses that could be consistent in the adversarial framework.</p>
+    <p class="pub-abstract">The notion of adversary is a staple of distributed computing. An adversary typically models hostile assumptions about the underlying distributed environment, e.g., a network that can drop messages, an operating system that can delay processes or an attacker that can hack machines. So far, the goal of distributed computing researchers has mainly been to develop a distributed algorithm that can face a given adversary, the abstraction characterizing worst-case scenarios. This paper initiates the study of the somehow opposite approach. Given a distributed algorithm, the adversary is the abstraction we seek to implement. More specifically, we consider the problem of controlling the spread of messages in a large- scale system, conveying the practical motivation of limiting the dissemination of fake news or viruses. Essentially, we assume a general class of gossip protocols, called all-to-all gossip protocols, and devise a practical method to hinder the dissemination. We present the Universal Gossip Fighter (UGF). Just like classical adversaries in distributed computing, UGF can observe the status of a dissemination and decide to stop some processes or delay some messages. The originality of UGF lies in the fact that it is universal, i.e., it applies to any all-to-all gossip protocol. We show that any gossip protocol attacked by UGF ends up exhibiting a quadratic message complexity (in the total number of processes) if it achieves sublinear time of dissemination. We also show that if a gossip protocol aims to achieve a message complexity α times smaller than quadratic, then the time complexity rises exponentially in relation to α. We convey the practical relevance of our theoretical findings by implementing UGF and conducting a set of empirical experiments that confirm some of our results.</p>
     
 
     
@@ -669,7 +669,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">Conference on Neural Information Processing Systems</div>
+          <div class="col-12 col-md-9">International Symposium on Distributed Computing</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -720,7 +720,7 @@
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="/authors/laurent-meunier/"></a></h5>
+      <h5 class="card-title"><a href="/authors/rachid-guerraoui/"></a></h5>
       
       
       <ul class="network-icon" aria-hidden="true">
