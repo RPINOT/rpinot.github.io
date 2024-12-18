@@ -80,7 +80,7 @@ For a full (up to date) list of my work, please visit my <a href="https://schola
    Conference on Neural Information Processing Systems (NeurIPS) 2023    
    **Authors:** Y Allouah, R Guerraoui, N Gupta, R Pinot, G Rizk
 
->* **On the Inherent Anonymity of Gossiping** 
+>* **On the Inherent Anonymity of Gossiping**     
    International Symposium on Distributed Computing (DISC) 2023    
    **Authors:** R Guerraoui, AM Kermarrec, A Kucherenko, R Pinot, S Voitovych
   
