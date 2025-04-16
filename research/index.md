@@ -22,7 +22,7 @@ For a full (up to date) list of my work, please visit my <a href="https://schola
 >*  **On the impact of randomization on robustness in machine learning**   
    PhD Thesis at PSL University in 2020   
    **Jury:** Prof Jamal Atif, Prof. Francis Bach, Dr. Sébastien Bubeck, Prof. Stéphane Canu, 
-   Dr Cedric Gouy-Pailler, Dr. Panayotis Mertikopoulos, Prof. Cordelia Schmid, and Prof. Michèle Sebag   
+   Dr Cédric Gouy-Pailler, Dr. Panayotis Mertikopoulos, Prof. Cordelia Schmid, and Prof. Michèle Sebag   
    
 >*  **Minimum spanning tree release under differential privacy constraints**  
    Master Thesis at 2017 Sorbonne University   
