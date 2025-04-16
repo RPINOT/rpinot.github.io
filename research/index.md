@@ -26,7 +26,7 @@ For a full (up to date) list of my work, please visit my <a href="https://schola
    
 >*  **Minimum spanning tree release under differential privacy constraints**  
    Master Thesis at 2017 Sorbonne University   
-   **Jury:** Prof. Jamal Atif, Dr. Cédric Gouy-Pailler, Dr. Maxime Sagnier, and Dr. Florian Yger
+   **Jury:** Prof. Jamal Atif, Dr. Cédric Gouy-Pailler, Dr. Maxime Sangnier, and Dr. Florian Yger
 
 <br>
 
