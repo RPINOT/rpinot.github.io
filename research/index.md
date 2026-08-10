@@ -22,15 +22,15 @@ For a full (up to date) list of my work, please visit my <a href="https://schola
 >*  **On the impact of randomization on robustness in machine learning**   
    PhD Thesis at PSL University in 2020   
    **Jury:** Prof Jamal Atif, Prof. Francis Bach, Dr. Sébastien Bubeck, Prof. Stéphane Canu, 
-   Dr Cédric Gouy-Pailler, Dr. Panayotis Mertikopoulos, Prof. Cordelia Schmid, and Prof. Michèle Sebag   
+   Dr Cedric Gouy-Pailler, Dr. Panayotis Mertikopoulos, Prof. Cordelia Schmid, and Prof. Michèle Sebag   
    
 >*  **Minimum spanning tree release under differential privacy constraints**  
    Master Thesis at 2017 Sorbonne University   
-   **Jury:** Prof. Jamal Atif, Dr. Cédric Gouy-Pailler, Dr. Maxime Sangnier, and Dr. Florian Yger
+   **Jury:** Prof. Jamal Atif, Dr. Cédric Gouy-Pailler, Dr. Maxime Sagnier, and Dr. Florian Yger
 
 <br>
 
-## Books, Book Chapters
+## Books / Book Chapters
 
 >* **Robust Machine Learning: Distributed Methods for Safe AI**   
     Book published by Springer Edition in 2024   
@@ -44,8 +44,12 @@ For a full (up to date) list of my work, please visit my <a href="https://schola
 
 ## Journal Papers
 
+>* **On the Relevance of Byzantine Robustness against Data Poisoning**   
+    Journal of Machine Learning Research 2026  
+    **Authors:** S Farhadkhani, R Guerraoui, N Gupta, R Pinot
+
 >* **Byzantine Machine Learning: A Primer**   
-    ACM Computing Survey 2023  
+    ACM Computing Survey 2024  
     **Authors:** R Guerraoui, N Gupta, R Pinot
     
 >* **On the robustness of randomized classifiers to adversarial examples**   
@@ -60,8 +64,20 @@ For a full (up to date) list of my work, please visit my <a href="https://schola
 
 ## Conference Papers
 
+>* **Equalized Generative Treatment: Matching f-divergences for Fairness in Generative Models**     
+   International Conference on Machine Learning (ICML) 2026    
+   **Authors:** A Vérine, R Pinot, F Le Bronnec
+
+>* **Robust Federated Inference**     
+   International Conference on Learning Representation (ICLR) 2026    
+   **Authors:** A Dhasade, S Farhadkhani, R Guerraoui, N Gupta, M Jacovella, A Kermarrec, R Pinot
+
+>* **Unveiling the Role of Randomization in Multiclass Adversarial Classification**     
+   Conference on Artificial Intelligence and Statistics (AISTATS) 2025    
+   **Authors:** L Gnecco, M Sammut, M Pydi, R Pinot, B Negrevergne, Y Chevaleyre 
+
 >* **Towards Practical Homomorphic Aggregation in Byzantine-Resilient Distributed Learning**     
-   International Middleware Conference (Middleware) 2024    
+   International Middleware Conference (Middleware) 2025    
    **Authors:** A Choffrut, R Guerraoui, R Pinot, R Sirdey, J Stephan, M Zuber 
 
 >* **Fine-Tuning Personalization in Federated Learning to Mitigate Adversarial Clients**     

@@ -16,8 +16,11 @@ presenting some of them.
 
 <br>
 
-## Technical Reports 
+## Technical Reports / Book Chapters
 
+>* **Tout comprendre (ou presque) sur l’IA** 2025    
+   CNRS Edition (Authors: Olivier Cappé and Claire Marc)
+   
 >* **On the Impossible Safet of Very Large Foundation Models** 2022    
    Arxiv technical report (https://arxiv.org/abs/2209.15259)
    
@@ -36,7 +39,10 @@ presenting some of them.
    
 <br>
    
-## Press Articles 
+## Press Articles / Interview
+
+>* **IA, l’école est finie ?** 2025 
+   Video Interview L’Étudiant
 
 >* **Attaques adversariales: comprendre pour atténuer les risques** 2020    
    Clef du CEA num 69

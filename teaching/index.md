@@ -6,7 +6,7 @@
 
   
 <div style="text-align: justify"> 
- teach in both the Computer Science and Mathematics departments, primarily 
+ I teach in both the Computer Science and Mathematics departments, primarily 
  focusing on the fundamentals of machine learning and data analysis. Additionally, 
  I occasionally deliver guest lectures in Master and PhD programs as well as
  at summer/winter schools. Below, you will find a list of my teaching activities.
@@ -25,6 +25,9 @@
 <br>
 
 ## Guest Lectures and Summer/Winter Schools
+
+>* **ML at Aussois: Autumn School on Recent Advances in Machine Learning** 2025    
+   **Talk:** The Marauders Map of adversarial examples: SOK on evasion attacks in machine learning
 
 >* **Guest Lecturer in “Distributed Algorithms”** 2021 -2024     
    Msc/PhD in Computer Science - École Polytechnique Fédérale de Lausanne
